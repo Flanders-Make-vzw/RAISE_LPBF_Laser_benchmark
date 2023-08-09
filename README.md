@@ -14,9 +14,16 @@ A collection of Pytorch Datasets can be found in the `dataset.py` file:
 
 
 ## Models
-WIP
+A collection of models as Pytorch Modules can be found in the `models/` folder:
+- `CNN3DResnet`: Hara et Al. (2017). Learning spatio-temporal features with 3D residual networks for action recognition.
+- `CNN3DSlowFast`: Feichtenhofer et Al. (2019). SlowFast Networks for Video Recognition.
+- `MViT`: Fan et Al. (2021). Multiscale Vision Transformers.
+- `Swin3D`: Yang et Al. (2023). Swin3D: A Pretrained Transformer Backbone for 3D Indoor Scene Understanding.
+- `ViViT`: Arnab et Al. (2021). ViViT: A Video Vision Transformer.
+- `X3D`: Feichtenhofer et Al. (2020). X3D: Expanding Architectures for Efficient Video Recognition.
 
-## Reference
+
+## Citation
 ```bibtex
 @article{BLANC2023100161,
 title = {Reference dataset and benchmark for reconstructing laser parameters from on-axis video in powder bed fusion of bulk stainless steel},

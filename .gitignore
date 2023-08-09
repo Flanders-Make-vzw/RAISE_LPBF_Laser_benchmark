@@ -5,3 +5,5 @@
 
 !.gitignore
 !requirements.txt
+
+!models/
