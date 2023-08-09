@@ -35,7 +35,6 @@ issn = {2772-3690},
 doi = {https://doi.org/10.1016/j.addlet.2023.100161},
 url = {https://www.sciencedirect.com/science/article/pii/S2772369023000427},
 author = {Cyril Blanc and Ayyoub Ahar and Kurt {De Grave}},
-keywords = {Selective laser melting, Stainless steel, On-axis camera, Dataset, Machine learning, Monitoring},
-abstract = {We present RAISE-LPBF, a large dataset on the effect of laser power and laser dot speed in powder bed fusion (LPBF) of 316L stainless steel bulk material, monitored by on-axis 20k FPS video. Both process parameters are independently sampled for each scan line from a continuous distribution, so interactions of different parameter choices can be investigated. The data can be used to derive statistical properties of LPBF, as well as to build anomaly detectors. We provide example source code for loading the data, baseline machine learning models and results, and a public benchmark to evaluate predictive models.}
+keywords = {Selective laser melting, Stainless steel, On-axis camera, Dataset, Machine learning, Monitoring}
 }
 ```
