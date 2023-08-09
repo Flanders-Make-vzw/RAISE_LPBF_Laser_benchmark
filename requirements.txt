@@ -1,0 +1,7 @@
+torch
+pytorchvideo
+h5py==3.3
+matplotlib
+einops
+timm
+numpy
