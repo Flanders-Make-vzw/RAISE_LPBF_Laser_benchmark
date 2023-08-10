@@ -2,19 +2,21 @@ RAISE-LPBF-Laser benchmark repo
 ===
 Official repository of the RAISE-LPBF-Laser benchmark.
 
-We hereby provide Pytorch-compatible code to interface our [datasets](#datasets) as well as the [models](#models) we used as baselines.
+We hereby provide PyTorch code to load the [dataset](#datasets) as well as the [models](#models) we used as baselines.
 
 More information can be found on our website [makebench.eu](https://www.makebench.eu/benchmark/The%20RAISE-LPBF-Laser%20benchmark).
 
 ## Datasets
-A collection of Pytorch Datasets can be found in the `dataset.py` file:
-- `FramesSP`: extracts and process data for training/testing given the filepath to a RAISE-LPBF-Laser HDF5 dataset;
-- `OneWaySP`: inherits from `FramesSP` to process the frames even more for compatibility with one-way models such as 3DResnet, X3D, MViT, etc.;
-- `TwoWaysSP`: inherits from `FramesSP` to process the frames even more for compatibility with one-way models such as SlowFast.
+A collection of PyTorch Datasets can be found in the `dataset.py` file:
+- `FramesSP`: extracts frames for training/testing given the filepath to a RAISE-LPBF-Laser HDF5 dataset as downloaded from the website;
+- `OneWaySP`: inherits from `FramesSP` to further preprocess the frames for compatibility with video recognition models such as 3DResnet, X3D, MViT, etc.;
+- `TwoWaysSP`: inherits from `FramesSP` to further preprocess the frames for compatibility with two-way model SlowFast.
 
+This is just a baseline to demonstrate how to use the data; doubtlessly it is possible to achieve better performance. 
+We encourage everyone to submit results of improved models or preprocessing methods to Makebench.eu.
 
 ## Models
-A collection of models as Pytorch Modules can be found in the `models/` folder:
+A collection of models as PyTorch Modules can be found in the `models/` folder:
 - `CNN3DResnet`: Hara et Al. (2017). Learning spatio-temporal features with 3D residual networks for action recognition.
 - `CNN3DSlowFast`: Feichtenhofer et Al. (2019). SlowFast Networks for Video Recognition.
 - `MViT`: Fan et Al. (2021). Multiscale Vision Transformers.
