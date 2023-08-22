@@ -1,4 +1,5 @@
-# from https://github.com/SwinTransformer/Video-Swin-Transformer/blob/db018fb8896251711791386bbd2127562fd8d6a6/configs/recognition/swin/swin_base_patch244_window1677_sthv2.py
+# Adapted from https://github.com/SwinTransformer/Video-Swin-Transformer/blob/db018fb8896251711791386bbd2127562fd8d6a6/configs/recognition/swin/swin_base_patch244_window1677_sthv2.py
+# which is Apache-2.0 licensed.
 
 import torch
 import torch.nn as nn
