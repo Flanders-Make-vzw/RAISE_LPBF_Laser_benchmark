@@ -1,4 +1,5 @@
 # From https://github.com/rishikksh20/ViViT-pytorch
+# which is MIT licensed.
 
 import numpy as np
 import torch
