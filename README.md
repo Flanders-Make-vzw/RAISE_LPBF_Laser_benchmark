@@ -12,7 +12,7 @@ A collection of PyTorch Datasets can be found in the `dataset.py` file:
 - `OneWaySP`: inherits from `FramesSP` to further preprocess the frames for compatibility with video recognition models such as 3DResnet, X3D, MViT, etc.;
 - `TwoWaysSP`: inherits from `FramesSP` to further preprocess the frames for compatibility with two-way model SlowFast.
 
-This is just a baseline to demonstrate how to use the data; doubtlessly it is possible to achieve better performance. 
+This is just a baseline to demonstrate how to use the data; doubtlessly it is possible to achieve better performance.  Note that the current version of this code expects the v1.0 dataset.
 We encourage everyone to submit results of improved models or preprocessing methods to Makebench.eu.
 
 ## Models
